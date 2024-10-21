@@ -569,10 +569,12 @@ layout_mode = 1
 
 [node name="WoodLabel" type="Label" parent="InventoryPanel/slot_bois"]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 26.4651
+offset_top = 16.6929
+offset_right = 66.4651
+offset_bottom = 39.6929
 
-[node name="inventory_slot2" parent="InventoryPanel" instance=ExtResource("10_ocldh")]
+[node name="slot_pierre" parent="InventoryPanel" instance=ExtResource("10_ocldh")]
 layout_mode = 2
 anchors_preset = 0
 anchor_left = 1.452
@@ -584,7 +586,7 @@ offset_right = -81.3986
 offset_bottom = -41.8191
 script = ExtResource("10_kx3o6")
 
-[node name="object_pierre" parent="InventoryPanel/inventory_slot2" instance=ExtResource("12_cycft")]
+[node name="object_pierre" parent="InventoryPanel/slot_pierre" instance=ExtResource("12_cycft")]
 layout_mode = 1
 anchors_preset = 0
 anchor_right = 0.0
@@ -592,10 +594,12 @@ anchor_bottom = 0.0
 grow_horizontal = 1
 grow_vertical = 1
 
-[node name="StoneLabel" type="Label" parent="InventoryPanel/inventory_slot2"]
+[node name="StoneLabel" type="Label" parent="InventoryPanel/slot_pierre"]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = 26.4649
+offset_top = 16.693
+offset_right = 66.4649
+offset_bottom = 39.693
 
 [node name="FarmBois" type="Area2D" parent="."]
 script = ExtResource("12_kwpko")

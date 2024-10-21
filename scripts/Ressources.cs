@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public partial class Ressources : Node
+public partial class Ressources
 {
 	public string ItemName { get; private set; }
 	public int Quantity { get; private set; }
